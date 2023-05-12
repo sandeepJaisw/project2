@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .boss{
+    border: 5px solid black;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+} */
+.container{
+    border: 0px solid grey;
+    width: 80%;
+    height: 90%;
+    background-color: grey;
+    position: absolute;
+    top: 50px;
+    right: 180px;
+    filter: blur(3px);
+}
+.containera{
+    border: 0px solid white;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+.container1{
+    position: relative;
+    left: 40px;
+    top: 15px;
+    font-weight: 100px;
+}
+.container2{
+    color: blue;
+}
+.container3{
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: relative;
+    top: 70px;
+    left: 700px;
+}
+.container4{
+    position: absolute;
+    top: 20px;
+    right: -8px;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.parent{
+    border: 0px solid blue;
+    border-radius: 20px;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 200px;
+    right: 110px;
+    gap: 5px;
+}
+.child1{
+    border: 1px solid white;
+    height: 220px;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+}
+.child1a{
+    color: blue;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    
+}
+.child11{
+    /* display: block; */
+    position: relative;
+    padding-left: 20px;
+    left: 20px;
+    margin-bottom: 10px;
+    user-select: none;
+    cursor: pointer;
+    
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    color: grey;
+}
+/* .checkbox:checked:after{
+    background-color:green;
+} */
+.child12{
+    text-decoration: line-through;
+    position: relative;
+    left: 25px;
+    top: -5px;
+    color: grey;
+}
+.child13{
+    text-decoration: none;
+    position: relative;
+    left: 25px;
+    top: -5px;
+}
+.child1:hover{
+    box-shadow: 10px 10px 10px 5px black;
+}
+.child2{
+    border: 1px solid white;
+    height: 220px;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+}
+.child2:hover{
+    box-shadow: 10px 10px 10px 5px black;
+}
+.child3{
+    border: 1px solid white;
+    background-color: white;
+    height: 220px;
+    width: 30%;
+    border-radius: 15px;
+}
+.child3:hover{
+    box-shadow: 10px 10px 10px 5px black;
+}
+.child4{
+    border: 1px solid white;
+    background-color: white;
+    height: 220px;
+    width: 30%;
+    border-radius: 15px;
+}
+.child4:hover{
+    box-shadow: 10px 10px 10px 5px black;
+}
+.child5{
+    border: 1px solid white;
+    background-color: white;
+    height: 220px;
+    width: 30%;
+    position: relative;
+    right: 275px;
+    border-radius: 15px;
+}
+.child5:hover{
+    box-shadow: 10px 10px 10px 5px black;
+}
+
+.containercha{
+    position: absolute;
+    top: 200px;
+    right: 700px;
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .containercha{
+    border: opx solid black;
+    height: 500px;
+    width: 1000px;
+    background-color: grey;
+    position: relative;
+    top: 50px;
+    left: 150px;
+} */
+.containera123:hover{
+    box-shadow: 10px 10px 10px 5px grey;
+}
+.containera123{
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+    box-shadow: 8px 8px 10px;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+.container124{
+    font-size: 20px;
+    font-weight: 100px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+.container158{
+    width: 30px;
+    position: relative;
+    top: -50px;
+    left: 350px;
+}
+.child1111{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    background-color: rgb(199, 197, 197);
+    position: relative;
+    top: 30px;
+    left: 220px;
+}
+.pin11{
+    font-size: 18px;
+    font-weight: 50px;
+    /* text-align: center; */
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.child2222{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    background-color:  rgb(2, 112, 255);
+    position: relative;
+    top: 40px;
+    left: 400px;
+}
+.pin222{
+    font-size: 18px;
+    font-weight: 50px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}

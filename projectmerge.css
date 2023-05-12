@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 0px solid grey;
+    width: 1000px;
+    height: 600px;
+    background-color: grey;
+    position: absolute;
+    top: 50px;
+    right: 180px;
+    /* filter: blur(0.8px); */
+}
+.containera{
+    border: 0px solid white;
+    height: 60px;
+    width: 1345px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+.container1{
+    position: relative;
+    left: 40px;
+    top: 15px;
+    font-weight: 100px;
+}
+.container2{
+    color: blue;
+}
+.container3{
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: relative;
+    top: 70px;
+    left: 700px;
+}
+.container4{
+    position: absolute;
+    top: 20px;
+    right: -8px;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.container5{
+    position: absolute;
+    top: 20px;
+    left: -400px;
+}
+.container51{
+    width: 40px;
+}
+.container6{
+    position: relative;
+    top: -25px;
+    left: -360px;
+}
+.container7{
+    border: 0px solid blue;
+    border-radius: 20px;
+    height: 550px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    gap: 5px;
+    text-decoration: none;
+}
+.container71:hover{
+    box-shadow: 10px 10px 10px 5px black;
+}
+.container71{
+    border: 1px solid white;
+    height: 220px;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+}
+.child12{
+    text-decoration: line-through;
+    position: relative;
+    left: 25px;
+    top: -5px;
+    color: grey;
+}
+.child13{
+    text-decoration: none;
+    position: relative;
+    left: 25px;
+    top: -5px;
+}
+.child11{
+    /* display: block; */
+    position: relative;
+    padding-left: 20px;
+    left: 20px;
+    margin-bottom: 10px;
+    user-select: none;
+    cursor: pointer;
+    
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    color: grey;
+    /* filter: blur(0.child12); */
+}
+.child1a{
+    color: blue;
+    position: relative;
+    text-align: center;
+    left: 70px;
+    top: 10px;
+    
+}
